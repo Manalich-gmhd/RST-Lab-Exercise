@@ -16,16 +16,15 @@ class RTSlab_exercise:
         raise TypeError(" Error: amount argument must be a valid integer")
       
       # solution presented here
-      if amount>=0:
-        # Split the input string in two string parts:
-        # First string from 0 to length-amount-1 character 
-        first_part = input_string[0 : len(input_string)-amount] 
-        # Second string from length-amount to the last character
-        second_part = input_string[len(input_string)-amount : ] 
-        # return right rotated string, concatenating the second part and then the first part
-        return second_part + first_part 
-      else:
-        return "The count parameter must be a positive integer number"        
+     
+      # Split the input string in two string parts:
+      # First string from 0 to length-amount-1 character 
+      first_part = input_string[0 : len(input_string)-amount] 
+      # Second string from length-amount to the last character
+      second_part = input_string[len(input_string)-amount : ] 
+      # return right rotated string, concatenating the second part and then the first part
+      return second_part + first_part 
+         
     
     def aboveBelow(self,numberList,compareValue):
       
