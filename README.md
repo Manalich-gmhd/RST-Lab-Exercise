@@ -9,9 +9,11 @@ class in Python that contains the following two public methods:
 
 Example usage:
 
-input: [1, 5, 2, 1, 10], 6
+exercise=RTSlab_exercise()
+inputList= [1, 5, 2, 1, 10]
+outputDic=exercise.aboveBelow(inputList,6)
 
-output: { "above": 1, "below": 4 }
+# output: { "above": 1, "below": 4 }
 
     stringRotation
 
@@ -22,9 +24,11 @@ output: { "above": 1, "below": 4 }
 
 Example usage:
 
-input: "MyString", 2
+exercise=RTSlab_exercise()
+inputStr="MyString"
+outputStr=exercise.stringRotation("MyString", 2)
 
-output: "ngMyStri"
+# output: "ngMyStri"
 
 A test unit was implemented to test the class methods
 
